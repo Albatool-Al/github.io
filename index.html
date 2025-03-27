@@ -5,104 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Albatool Ali - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav id="navbar">
-            <div class="name">Albatool Ali</div>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#recommendations">Recommendations</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav id="navbar">
+        <a href="#" class="logo">Albatool Ali</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+    </nav>
 
     <section id="about" class="section">
-        <div class="container">
-            <div class="about-content">
-                <div class="profile-image">
-                    <img src="profile.jpg" alt="Albatool Ali">
-                </div>
-                <div class="about-text">
-                    <h1>About Me</h1>
-                    <p>Hello! I'm Albatool Ali, a passionate web developer with expertise in HTML, CSS, and JavaScript. I enjoy creating responsive and user-friendly websites that deliver great user experiences. With a strong attention to detail and a commitment to clean code, I strive to build web applications that are both functional and visually appealing.</p>
+        <div class="about-container">
+            <img src="profile.jpg" alt="Albatool Ali" class="profile-img">
+            <div class="about-text">
+                <h1>Hi, I'm Albatool Ali</h1>
+                <p>I'm a passionate web developer with expertise in creating responsive and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building modern web applications that deliver exceptional user experiences. My approach combines technical skills with creative problem-solving to develop solutions that meet both business and user needs.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="skills" class="section">
-        <div class="container">
-            <h1>Skills</h1>
-            <div class="skills-container">
-                <div class="skill">
-                    <img src="html-icon.png" alt="HTML">
-                    <p>HTML</p>
-                </div>
-                <div class="skill">
-                    <img src="css-icon.png" alt="CSS">
-                    <p>CSS</p>
-                </div>
-                <div class="skill">
-                    <img src="js-icon.png" alt="JavaScript">
-                    <p>JavaScript</p>
-                </div>
-                <div class="skill">
-                    <img src="react-icon.png" alt="React">
-                    <p>React</p>
-                </div>
-                <div class="skill">
-                    <img src="git-icon.png" alt="Git">
-                    <p>Git</p>
-                </div>
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <i class="fab fa-html5 skill-icon"></i>
+                <p>HTML5</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-css3-alt skill-icon"></i>
+                <p>CSS3</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-js skill-icon"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-react skill-icon"></i>
+                <p>React</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-git-alt skill-icon"></i>
+                <p>Git</p>
             </div>
         </div>
     </section>
 
     <section id="projects" class="section">
-        <div class="container">
-            <h1>Projects</h1>
-            <div class="projects-container">
-                <div class="project">
-                    <h3>E-commerce Website</h3>
-                    <p>A fully responsive e-commerce platform with product listings, cart functionality, and secure checkout.</p>
-                </div>
-                <div class="project">
-                    <h3>Task Management App</h3>
-                    <p>A web application for managing daily tasks with drag-and-drop functionality and team collaboration features.</p>
-                </div>
-                <div class="project">
-                    <h3>Weather Dashboard</h3>
-                    <p>A weather application that displays current conditions and forecasts using data from a weather API.</p>
-                </div>
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>E-Commerce Platform</h3>
+                <p>A fully responsive online store with product catalog, shopping cart, and checkout system built with React and Node.js.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Task Management App</h3>
+                <p>A productivity application for organizing tasks with drag-and-drop functionality and team collaboration features.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Weather Dashboard</h3>
+                <p>Real-time weather application that displays current conditions and forecasts using data from multiple weather APIs.</p>
+                <a href="#" class="project-link">View Project</a>
             </div>
         </div>
     </section>
 
     <section id="recommendations" class="section">
-        <div class="container">
-            <h1>Recommendations</h1>
-            <div class="recommendations-container">
-                <div class="recommendation">
-                    <p>"Albatool is an excellent developer with great attention to detail. She delivered our project ahead of schedule with exceptional quality."</p>
-                    <p>- Sarah Johnson, Project Manager</p>
-                </div>
-                <div class="recommendation">
-                    <p>"Working with Albatool was a pleasure. Her problem-solving skills and technical expertise are top-notch."</p>
-                    <p>- Michael Chen, Senior Developer</p>
-                </div>
-                <div class="recommendation">
-                    <p>"Albatool's designs are both beautiful and functional. She understands user experience better than anyone I've worked with."</p>
-                    <p>- Emily Rodriguez, UX Designer</p>
-                </div>
+        <h2 class="section-title">Recommendations</h2>
+        <div class="recommendations-container">
+            <div class="recommendation-card">
+                <p>"Albatool demonstrated exceptional problem-solving skills and attention to detail in our web development project. Her ability to translate complex requirements into elegant solutions was impressive."</p>
+                <p class="recommender">- Sarah Johnson, Tech Lead</p>
+            </div>
+            <div class="recommendation-card">
+                <p>"Working with Albatool was a pleasure. She consistently delivered high-quality code on time and was always willing to go the extra mile to ensure project success."</p>
+                <p class="recommender">- Michael Chen, Project Manager</p>
+            </div>
+            <div class="recommendation-card">
+                <p>"Albatool's technical expertise and creative approach to UI/UX design resulted in a product that exceeded our expectations. I would highly recommend her for any web development project."</p>
+                <p class="recommender">- Emily Rodriguez, Product Owner</p>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy;  Albatool Ali. All rights reserved.</p>
+        <p>&copy; 2023 Albatool Ali. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
